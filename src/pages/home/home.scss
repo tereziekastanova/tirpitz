@@ -1,0 +1,103 @@
+.ios, .md {
+
+  slide-zoom {
+    padding: 0px !important;
+  }
+
+    .label-ios {
+      margin: 0 0 0 0;
+    }
+
+    .list .item {
+      background-color: transparent;
+  }
+
+  .list {
+    margin-top:0%;
+  }
+
+
+  #photo {
+    max-height:100%;
+    position: absolute; // zmienia rozmiar obrazku jakimś cudem
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+  }
+
+  page-home {
+
+    ion-slide {
+      align-items: flex-start;
+    }
+
+
+
+    ion-item {
+      margin-bottom: 5px;
+      font-size: 1.2em;
+      background-color: map-get($colors, primary);
+    }
+
+    flash-card {
+      color: #000;
+
+      img {
+        height: 50vh;
+        width: 70%;
+        height: auto;
+      }
+    }
+
+    .start-slide {
+      justify-content: center;
+      align-items: center;
+      background-image: url("../../assets/imgs/bgStart.jpg");
+      background-size: cover;
+
+      button {
+        font-size: 1.3em;
+        font-weight: bold;
+        background-color: black;
+      }
+    }
+
+  }
+
+  .margin {
+    margin-top: 75%;
+  }
+
+  .kwadrat-slide {
+    background-image: url("../../assets/imgs/bgKwadrat.jpg");
+    background-size: cover;
+  }
+
+  .questions-slide {
+    background-image: url("../../assets/imgs/bgQ.jpg");
+    background-size: cover;
+  }
+
+  .bgBlue-slide {
+    background-image: url("../../assets/imgs/bgBlue.jpg");
+    background-size: cover;
+  }
+
+
+  .icon-ios-primary {
+    color: white;
+    z-index: 2;
+    position: absolute;
+    margin-left: -45%;
+    margin-top: 1px;
+    zoom: 2.3;
+
+  }
+
+h2 {
+  font-size: 14px;
+  color: black;
+}
+
+}
+

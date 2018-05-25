@@ -1,0 +1,98 @@
+{
+  "questions": [
+
+    {
+
+      "questionText": "Which is your favourite color?",
+      "answers": [
+        {"answer": "../../assets/imgs/1%20question/amber.jpg", "correct": true , "selected": false, "name1": "amber" , "opis": "text o charakterach"},
+        {"answer": "../../assets/imgs/1%20question/sailor.jpg", "correct": true, "selected": false, "name1": "sailor"},
+        {"answer": "../../assets/imgs/1%20question/pirat.jpg", "correct": true, "selected": false, "name1":"pirat"},
+        {"answer": "../../assets/imgs/1%20question/viking.jpg", "correct": true , "selected": false, "name1":"viking"}
+      ]
+    },
+    {
+      "questionText": "What would you like to eat?",
+      "answers": [
+        {"answer": "../../assets/imgs/2/1.jpg", "correct": true , "selected": false , "name1": "amber" },
+        {"answer": "../../assets/imgs/2/2.jpg", "correct": true, "selected": false, "name1": "sailor"},
+        {"answer": "../../assets/imgs/2/3.jpg", "correct": true, "selected": false, "name1":"pirat"},
+        {"answer": "../../assets/imgs/2/4.jpg", "correct": true , "selected": false, "name1":"viking"}
+      ]
+    },
+    {
+      "questionText": "Where would you like to live?",
+      "answers": [
+        {"answer": "../../assets/imgs/3/1.jpg", "correct": true , "selected": false , "name1": "amber" },
+        {"answer": "../../assets/imgs/3/2.jpg", "correct": true, "selected": false , "name1": "sailor"},
+        {"answer": "../../assets/imgs/3/3.jpg", "correct": true, "selected": false , "name1":"pirat"},
+        {"answer": "../../assets/imgs/3/4.jpg", "correct": true , "selected": false , "name1":"viking"}
+      ]
+    },
+    {
+      "questionText": "Which clothes would you like to wear?",
+      "answers": [
+        {"answer": "../../assets/imgs/4/1.jpg", "correct": true , "selected": false , "name1": "amber" },
+        {"answer": "../../assets/imgs/4/2.jpg", "correct": true, "selected": false , "name1": "sailor"},
+        {"answer": "../../assets/imgs/4/3.jpg", "correct": true, "selected": false , "name1":"pirat"},
+        {"answer": "../../assets/imgs/4/4.jpg", "correct": true , "selected": false , "name1":"viking"}
+      ]
+    },
+    {
+      "questionText": "Which thing would you like to have?",
+      "answers": [
+        {"answer": "../../assets/imgs/5/1.jpg", "correct": true , "selected": false , "name1": "amber" },
+        {"answer": "../../assets/imgs/5/2.jpg", "correct": true, "selected": false , "name1": "sailor"},
+        {"answer": "../../assets/imgs/5/3.jpg", "correct": true, "selected": false , "name1":"pirat"},
+        {"answer": "../../assets/imgs/5/4.jpg", "correct": true , "selected": false , "name1":"viking"}
+      ]
+    },
+    {
+      "questionText": "What is the best way of spending your spare time?",
+      "answers": [
+        {"answer": "../../assets/imgs/6/1.jpg", "correct": true , "selected": false , "name1": "amber" },
+        {"answer": "../../assets/imgs/6/2.jpg", "correct": true, "selected": false , "name1": "sailor"},
+        {"answer": "../../assets/imgs/6/3.jpg", "correct": true, "selected": false , "name1":"pirat"},
+        {"answer": "../../assets/imgs/6/4.jpg", "correct": true , "selected": false , "name1":"viking"}
+      ]
+    },
+    {
+      "questionText": "Which animal would you like to be?",
+      "answers": [
+        {"answer": "../../assets/imgs/7/1.jpg", "correct": true , "selected": false , "name1": "amber" },
+        {"answer": "../../assets/imgs/7/2.jpg", "correct": true, "selected": false , "name1": "sailor"},
+        {"answer": "../../assets/imgs/7/3.jpg", "correct": true, "selected": false , "name1":"pirat"},
+        {"answer": "../../assets/imgs/7/4.jpg", "correct": true , "selected": false , "name1":"viking"}
+      ]
+    },
+    {
+      "questionText": "Where would you like to go?",
+      "answers": [
+        {"answer": "../../assets/imgs/8/1.jpg", "correct": true , "selected": false , "name1": "amber" },
+        {"answer": "../../assets/imgs/8/2.jpg", "correct": true, "selected": false , "name1": "sailor"},
+        {"answer": "../../assets/imgs/8/3.jpg", "correct": true, "selected": false , "name1":"pirat"},
+        {"answer": "../../assets/imgs/8/4.jpg", "correct": true , "selected": false , "name1":"viking"}
+      ]
+    },
+    {
+      "questionText": "What is the most valuable thing for you?",
+      "answers": [
+        {"answer": "../../assets/imgs/9/1.jpg", "correct": true , "selected": false , "name1": "amber" },
+        {"answer": "../../assets/imgs/9/2.jpg", "correct": true, "selected": false , "name1": "sailor"},
+        {"answer": "../../assets/imgs/9/3.jpg", "correct": true, "selected": false , "name1":"pirat"},
+        {"answer": "../../assets/imgs/9/4.jpg", "correct": true , "selected": false , "name1":"viking"}
+      ]
+    },
+    {
+      "questionText": "How would you like to travel ?",
+      "answers": [
+        {"answer": "../../assets/imgs/10/1.jpg", "correct": true , "selected": false , "name1": "amber" },
+        {"answer": "../../assets/imgs/10/2.jpg", "correct": true, "selected": false , "name1": "sailor"},
+        {"answer": "../../assets/imgs/10/3.jpg", "correct": true, "selected": false , "name1":"pirat"},
+        {"answer": "../../assets/imgs/10/4.jpg", "correct": true , "selected": false , "name1":"viking"}
+      ]
+    }
+  ]
+}
+
+

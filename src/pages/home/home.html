@@ -1,0 +1,73 @@
+<ion-content scroll="true">
+
+  <ion-slides #slides >
+    <ion-slide class="start-slide">
+
+
+      <button ion-button color="primary" (click)="nextSlide()">Start!</button>
+    </ion-slide >
+
+    <ion-slide class="questions-slide" style="overflow:auto;"  *ngFor="let question of questions; let i = index;">
+
+      <h3>Question {{i+1}}</h3>
+
+      <h3>{{question.questionText}}</h3>
+
+      <ion-list no-lines radio-group>
+
+        <ion-item *ngFor="let answer of question.answers; let i = index;">
+
+          <ion-label ><div style="height: 100px; width: 100px; padding: 10px" ><img id="photo" src="{{answer.answer}} "></div> </ion-label>
+          <ion-radio (click)="selectAnswer(answer, question)"  [checked]="answer.selected" [disabled]="hasAnswered"></ion-radio>
+
+        </ion-item>
+
+      </ion-list>
+
+    </ion-slide>
+
+
+    <ion-slide class="kwadrat-slide" style="overflow:auto;">
+
+
+      <div class="margin"><h2 style="font-size: 30px">Check your final result</h2></div>
+      <ion-label ><h2>{{text}}</h2></ion-label>
+
+      <button ion-button color="primary" (click)="yourCharacter()">show your character</button>
+
+    </ion-slide>
+
+
+
+    <ion-slide class="bgBlue-slide" style="padding: 0px !important; overflow:auto;">
+
+      <div style=" width: 200px; height: 50vh; margin-left: 25%; margin-top: 6%;"> <img style="height: 50vh; padding: 0px !important;" src="{{char}}"></div>
+      <h2 style="font-size: 25px">{{name2}}</h2>
+      <h2>{{slogan}}</h2>
+      <h2 padding="5px">{{text}}</h2>
+      <ion-row>
+        <ion-col style="height: 200px" ><img style="height: 200px; padding: 0px !important;" src="{{ex}}"></ion-col>
+        <ion-col style="height: 200px" ><img style="height: 200px; padding: 0px !important;" src="{{ex2}}"></ion-col>
+      </ion-row>
+
+      <h2 padding="5px">{{text2}}</h2>
+
+      <h2>Check what can be interesting for you in museum</h2>
+      <button   ion-button color="primary" (click)="nextSlide()">Map of museum </button>
+      <h2>        </h2>
+    </ion-slide>
+
+    <ion-slide style="overflow:auto;" >
+
+      <button style="padding: 2px; z-index: 1;" (click)="prevSlide()" ion-button full color="fffff">Check your character</button>
+      <button style="padding: 2px; z-index: 1;" (click)="restartQuiz()" ion-button full color="fffff">Start Again</button>
+      <div><img  style="margin-top: -1%" src="{{map}}"></div>
+
+    </ion-slide>
+
+
+  </ion-slides>
+
+</ion-content>
+
+
